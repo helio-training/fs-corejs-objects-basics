@@ -1,5 +1,5 @@
 // export out the FACTIONS object below
-const FACTIONS = {
+export const FACTIONS = {
   Autobots: 'autobots',
   Decepticons: 'decepticons'
 };
@@ -8,7 +8,7 @@ const FACTIONS = {
 
 
 // define your Optimus Prime object below
-const OptimusPrime = {
+export const OptimusPrime = {
   name: 'Optimus Prime',
   faction: FACTIONS.Autobots,
   power: 1000,
@@ -28,7 +28,7 @@ const OptimusPrime = {
 
 // define your Megatron object below
 
-const Megatron = {
+export const Megatron = {
   name: 'Megatron',
   faction: FACTIONS.Decepticons,
   power: 1000,
