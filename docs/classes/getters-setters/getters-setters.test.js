@@ -6,13 +6,13 @@ Test('name has getter', t => {
   t.is(person.name, 'Tyler');
 });
 
-Test('negative age results in 0', t => {
+Test('negative age results in being set to 0', t => {
   const person = new Assignment.Person('Tyler');
   person.age = -1;
   t.is(person.age, 0);
 });
 
-Test('age above 120 is set to 12', t => {
+Test('any age entered above 120 is set to 120', t => {
   const person = new Assignment.Person('Tyler');
   person.age = 130;
   t.is(person.age, 120);
